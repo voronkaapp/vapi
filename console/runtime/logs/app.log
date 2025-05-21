@@ -1,0 +1,323 @@
+2022-06-16 03:19:41 [-][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: Declaration of console\controllers\DaemonController::options() should be compatible with yii\console\Controller::options($actionID) in /home/api/sites/api.voronka-app.ru/yii2/console/controllers/DaemonController.php:19
+Stack trace:
+#0 /home/api/sites/api.voronka-app.ru/yii2/console/controllers/DaemonController.php(9): yii\base\ErrorHandler->handleError(2, 'Declaration of ...', '/home/api/sites...', 19, Array)
+#1 /home/api/sites/api.voronka-app.ru/yii2/vendor/yiisoft/yii2/BaseYii.php(293): include('/home/api/sites...')
+#2 [internal function]: yii\BaseYii::autoload('console\\control...')
+#3 [internal function]: spl_autoload_call('console\\control...')
+#4 /home/api/sites/api.voronka-app.ru/yii2/vendor/yiisoft/yii2/base/Module.php(661): class_exists('console\\control...')
+#5 /home/api/sites/api.voronka-app.ru/yii2/vendor/yiisoft/yii2/base/Module.php(620): yii\base\Module->createControllerByID('daemon')
+#6 /home/api/sites/api.voronka-app.ru/yii2/vendor/yiisoft/yii2/base/Module.php(546): yii\base\Module->createController('index')
+#7 /home/api/sites/api.voronka-app.ru/yii2/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('daemon/index', Array)
+#8 /home/api/sites/api.voronka-app.ru/yii2/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('daemon/index', Array)
+#9 /home/api/sites/api.voronka-app.ru/yii2/vendor/yiisoft/yii2/base/Application.php(384): yii\console\Application->handleRequest(Object(yii\console\Request))
+#10 /home/api/sites/api.voronka-app.ru/yii2/yii(23): yii\base\Application->run()
+#11 {main}
+2022-06-16 03:19:41 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'XDG_SESSION_ID' => '587263'
+    'HOSTNAME' => 'main.voronka-app.ru'
+    'TERM' => 'xterm'
+    'SHELL' => '/bin/bash'
+    'HISTSIZE' => '1000'
+    'SSH_CLIENT' => '217.144.172.250 61208 22'
+    'SSH_TTY' => '/dev/pts/0'
+    'USER' => 'root'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;05;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.axa=01;36:*.oga=01;36:*.spx=01;36:*.xspf=01;36:'
+    'MAIL' => '/var/spool/mail/root'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/root/.local/bin:/root/bin:/root/usr/local/bin:/root/bin'
+    'PWD' => '/root'
+    'LANG' => 'en_US.UTF-8'
+    'HISTCONTROL' => 'ignoredups'
+    'SHLVL' => '1'
+    'HOME' => '/root'
+    'LOGNAME' => 'root'
+    'SSH_CONNECTION' => '217.144.172.250 61208 37.46.129.121 22'
+    'LESSOPEN' => '||/usr/bin/lesspipe.sh %s'
+    'XDG_RUNTIME_DIR' => '/run/user/0'
+    '_' => '/home/api/sites/api.voronka-app.ru/yii2/yii'
+    'PHP_SELF' => '/home/api/sites/api.voronka-app.ru/yii2/yii'
+    'SCRIPT_NAME' => '/home/api/sites/api.voronka-app.ru/yii2/yii'
+    'SCRIPT_FILENAME' => '/home/api/sites/api.voronka-app.ru/yii2/yii'
+    'PATH_TRANSLATED' => '/home/api/sites/api.voronka-app.ru/yii2/yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1655349581.3308
+    'REQUEST_TIME' => 1655349581
+    'argv' => [
+        0 => '/home/api/sites/api.voronka-app.ru/yii2/yii'
+        1 => 'daemon/index'
+        2 => '1rhjhjh'
+    ]
+    'argc' => 3
+]
+2022-06-16 03:45:15 [-][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: json_decode() expects parameter 1 to be string, array given in /home/api/sites/api.voronka-app.ru/yii2/common/models/Vclient.php:836
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'json_decode() e...', '/home/api/sites...', 836, Array)
+#1 /home/api/sites/api.voronka-app.ru/yii2/common/models/Vclient.php(836): json_decode(Array, true)
+#2 /home/api/sites/api.voronka-app.ru/yii2/common/models/Vclient.php(522): common\models\Vclient::requestNsBrainyCP(Array)
+#3 /home/api/sites/api.voronka-app.ru/yii2/common/models/Vclient.php(34): common\models\Vclient::_delVclientBrainyCP('17c8887')
+#4 /home/api/sites/api.voronka-app.ru/yii2/console/controllers/DaemonController.php(42): common\models\Vclient::delVclient('17c8887')
+#5 [internal function]: console\controllers\DaemonController->actionDeletevclient()
+#6 /home/api/sites/api.voronka-app.ru/yii2/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /home/api/sites/api.voronka-app.ru/yii2/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#8 /home/api/sites/api.voronka-app.ru/yii2/vendor/yiisoft/yii2/console/Controller.php(182): yii\base\Controller->runAction('deletevclient', Array)
+#9 /home/api/sites/api.voronka-app.ru/yii2/vendor/yiisoft/yii2/base/Module.php(552): yii\console\Controller->runAction('deletevclient', Array)
+#10 /home/api/sites/api.voronka-app.ru/yii2/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('daemon/deletevc...', Array)
+#11 /home/api/sites/api.voronka-app.ru/yii2/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('daemon/deletevc...', Array)
+#12 /home/api/sites/api.voronka-app.ru/yii2/vendor/yiisoft/yii2/base/Application.php(384): yii\console\Application->handleRequest(Object(yii\console\Request))
+#13 /home/api/sites/api.voronka-app.ru/yii2/yii(23): yii\base\Application->run()
+#14 {main}
+2022-06-16 03:45:14 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'XDG_SESSION_ID' => '587263'
+    'HOSTNAME' => 'main.voronka-app.ru'
+    'TERM' => 'xterm'
+    'SHELL' => '/bin/bash'
+    'HISTSIZE' => '1000'
+    'SSH_CLIENT' => '217.144.172.250 61208 22'
+    'SSH_TTY' => '/dev/pts/0'
+    'USER' => 'root'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;05;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.axa=01;36:*.oga=01;36:*.spx=01;36:*.xspf=01;36:'
+    'MAIL' => '/var/spool/mail/root'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/root/.local/bin:/root/bin:/root/usr/local/bin:/root/bin'
+    'PWD' => '/root'
+    'LANG' => 'en_US.UTF-8'
+    'HISTCONTROL' => 'ignoredups'
+    'SHLVL' => '1'
+    'HOME' => '/root'
+    'LOGNAME' => 'root'
+    'SSH_CONNECTION' => '217.144.172.250 61208 37.46.129.121 22'
+    'LESSOPEN' => '||/usr/bin/lesspipe.sh %s'
+    'XDG_RUNTIME_DIR' => '/run/user/0'
+    '_' => '/home/api/sites/api.voronka-app.ru/yii2/yii'
+    'PHP_SELF' => '/home/api/sites/api.voronka-app.ru/yii2/yii'
+    'SCRIPT_NAME' => '/home/api/sites/api.voronka-app.ru/yii2/yii'
+    'SCRIPT_FILENAME' => '/home/api/sites/api.voronka-app.ru/yii2/yii'
+    'PATH_TRANSLATED' => '/home/api/sites/api.voronka-app.ru/yii2/yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1655351114.6468
+    'REQUEST_TIME' => 1655351114
+    'argv' => [
+        0 => '/home/api/sites/api.voronka-app.ru/yii2/yii'
+        1 => 'daemon/deletevclient'
+        2 => '-vclient=17c8887'
+    ]
+    'argc' => 3
+]
+2022-06-16 03:53:55 [-][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: json_decode() expects parameter 1 to be string, array given in /home/api/sites/api.voronka-app.ru/yii2/common/models/Vclient.php:843
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'json_decode() e...', '/home/api/sites...', 843, Array)
+#1 /home/api/sites/api.voronka-app.ru/yii2/common/models/Vclient.php(843): json_decode(Array, true)
+#2 /home/api/sites/api.voronka-app.ru/yii2/common/models/Vclient.php(522): common\models\Vclient::requestNsBrainyCP(Array)
+#3 /home/api/sites/api.voronka-app.ru/yii2/common/models/Vclient.php(34): common\models\Vclient::_delVclientBrainyCP('17c8887')
+#4 /home/api/sites/api.voronka-app.ru/yii2/console/controllers/DaemonController.php(42): common\models\Vclient::delVclient('17c8887')
+#5 [internal function]: console\controllers\DaemonController->actionDeletevclient()
+#6 /home/api/sites/api.voronka-app.ru/yii2/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /home/api/sites/api.voronka-app.ru/yii2/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#8 /home/api/sites/api.voronka-app.ru/yii2/vendor/yiisoft/yii2/console/Controller.php(182): yii\base\Controller->runAction('deletevclient', Array)
+#9 /home/api/sites/api.voronka-app.ru/yii2/vendor/yiisoft/yii2/base/Module.php(552): yii\console\Controller->runAction('deletevclient', Array)
+#10 /home/api/sites/api.voronka-app.ru/yii2/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('daemon/deletevc...', Array)
+#11 /home/api/sites/api.voronka-app.ru/yii2/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('daemon/deletevc...', Array)
+#12 /home/api/sites/api.voronka-app.ru/yii2/vendor/yiisoft/yii2/base/Application.php(384): yii\console\Application->handleRequest(Object(yii\console\Request))
+#13 /home/api/sites/api.voronka-app.ru/yii2/yii(23): yii\base\Application->run()
+#14 {main}
+2022-06-16 03:53:54 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'XDG_SESSION_ID' => '587263'
+    'HOSTNAME' => 'main.voronka-app.ru'
+    'TERM' => 'xterm'
+    'SHELL' => '/bin/bash'
+    'HISTSIZE' => '1000'
+    'SSH_CLIENT' => '217.144.172.250 61208 22'
+    'SSH_TTY' => '/dev/pts/0'
+    'USER' => 'root'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;05;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.axa=01;36:*.oga=01;36:*.spx=01;36:*.xspf=01;36:'
+    'MAIL' => '/var/spool/mail/root'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/root/.local/bin:/root/bin:/root/usr/local/bin:/root/bin'
+    'PWD' => '/root'
+    'LANG' => 'en_US.UTF-8'
+    'HISTCONTROL' => 'ignoredups'
+    'SHLVL' => '1'
+    'HOME' => '/root'
+    'LOGNAME' => 'root'
+    'SSH_CONNECTION' => '217.144.172.250 61208 37.46.129.121 22'
+    'LESSOPEN' => '||/usr/bin/lesspipe.sh %s'
+    'XDG_RUNTIME_DIR' => '/run/user/0'
+    '_' => '/home/api/sites/api.voronka-app.ru/yii2/yii'
+    'PHP_SELF' => '/home/api/sites/api.voronka-app.ru/yii2/yii'
+    'SCRIPT_NAME' => '/home/api/sites/api.voronka-app.ru/yii2/yii'
+    'SCRIPT_FILENAME' => '/home/api/sites/api.voronka-app.ru/yii2/yii'
+    'PATH_TRANSLATED' => '/home/api/sites/api.voronka-app.ru/yii2/yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1655351634.6077
+    'REQUEST_TIME' => 1655351634
+    'argv' => [
+        0 => '/home/api/sites/api.voronka-app.ru/yii2/yii'
+        1 => 'daemon/deletevclient'
+        2 => '-vclient=17c8887'
+    ]
+    'argc' => 3
+]
+2022-07-11 14:02:02 [-][-][-][error][ParseError] ParseError: syntax error, unexpected '}' in /sites/api.voronka-app.ru/yii2/common/models/Vclient.php:702
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('common\\models\\V...')
+#1 /sites/api.voronka-app.ru/yii2/console/controllers/DaemonController.php(62): spl_autoload_call('common\\models\\V...')
+#2 [internal function]: console\controllers\DaemonController->actionCreatevclient()
+#3 /sites/api.voronka-app.ru/yii2/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /sites/api.voronka-app.ru/yii2/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#5 /sites/api.voronka-app.ru/yii2/vendor/yiisoft/yii2/console/Controller.php(182): yii\base\Controller->runAction('createvclient', Array)
+#6 /sites/api.voronka-app.ru/yii2/vendor/yiisoft/yii2/base/Module.php(552): yii\console\Controller->runAction('createvclient', Array)
+#7 /sites/api.voronka-app.ru/yii2/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('daemon/createvc...', Array)
+#8 /sites/api.voronka-app.ru/yii2/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('daemon/createvc...', Array)
+#9 /sites/api.voronka-app.ru/yii2/vendor/yiisoft/yii2/base/Application.php(384): yii\console\Application->handleRequest(Object(yii\console\Request))
+#10 /sites/api.voronka-app.ru/yii2/yii(23): yii\base\Application->run()
+#11 {main}
+2022-07-11 14:02:02 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SHELL' => '/bin/bash'
+    'USER' => 'api'
+    'USERNAME' => 'api'
+    'PWD' => '/sites'
+    'SHLVL' => '1'
+    'HOME' => '/sites'
+    '_' => '/sites/api.voronka-app.ru/yii2/yii'
+    'PHP_SELF' => '/sites/api.voronka-app.ru/yii2/yii'
+    'SCRIPT_NAME' => '/sites/api.voronka-app.ru/yii2/yii'
+    'SCRIPT_FILENAME' => '/sites/api.voronka-app.ru/yii2/yii'
+    'PATH_TRANSLATED' => '/sites/api.voronka-app.ru/yii2/yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1657548122.0678
+    'REQUEST_TIME' => 1657548122
+    'argv' => [
+        0 => '/sites/api.voronka-app.ru/yii2/yii'
+        1 => 'daemon/createvclient'
+    ]
+    'argc' => 2
+]
+2022-07-11 14:02:14 [-][-][-][error][ParseError] ParseError: syntax error, unexpected '}' in /home/api/sites/api.voronka-app.ru/yii2/common/models/Vclient.php:702
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('common\\models\\V...')
+#1 /home/api/sites/api.voronka-app.ru/yii2/console/controllers/DaemonController.php(42): spl_autoload_call('common\\models\\V...')
+#2 [internal function]: console\controllers\DaemonController->actionDeletevclient()
+#3 /home/api/sites/api.voronka-app.ru/yii2/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /home/api/sites/api.voronka-app.ru/yii2/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#5 /home/api/sites/api.voronka-app.ru/yii2/vendor/yiisoft/yii2/console/Controller.php(182): yii\base\Controller->runAction('deletevclient', Array)
+#6 /home/api/sites/api.voronka-app.ru/yii2/vendor/yiisoft/yii2/base/Module.php(552): yii\console\Controller->runAction('deletevclient', Array)
+#7 /home/api/sites/api.voronka-app.ru/yii2/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('daemon/deletevc...', Array)
+#8 /home/api/sites/api.voronka-app.ru/yii2/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('daemon/deletevc...', Array)
+#9 /home/api/sites/api.voronka-app.ru/yii2/vendor/yiisoft/yii2/base/Application.php(384): yii\console\Application->handleRequest(Object(yii\console\Request))
+#10 /home/api/sites/api.voronka-app.ru/yii2/yii(23): yii\base\Application->run()
+#11 {main}
+2022-07-11 14:02:14 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'XDG_SESSION_ID' => '880607'
+    'HOSTNAME' => 'main.voronka-app.ru'
+    'TERM' => 'xterm'
+    'SHELL' => '/bin/bash'
+    'HISTSIZE' => '1000'
+    'SSH_CLIENT' => '217.144.172.250 55179 22'
+    'SSH_TTY' => '/dev/pts/0'
+    'USER' => 'root'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;05;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.axa=01;36:*.oga=01;36:*.spx=01;36:*.xspf=01;36:'
+    'MAIL' => '/var/spool/mail/root'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/root/.local/bin:/root/bin:/root/usr/local/bin:/root/bin'
+    'PWD' => '/root'
+    'LANG' => 'en_US.UTF-8'
+    'HISTCONTROL' => 'ignoredups'
+    'SHLVL' => '1'
+    'HOME' => '/root'
+    'LOGNAME' => 'root'
+    'SSH_CONNECTION' => '217.144.172.250 55179 37.46.129.121 22'
+    'LESSOPEN' => '||/usr/bin/lesspipe.sh %s'
+    'XDG_RUNTIME_DIR' => '/run/user/0'
+    '_' => '/home/api/sites/api.voronka-app.ru/yii2/yii'
+    'PHP_SELF' => '/home/api/sites/api.voronka-app.ru/yii2/yii'
+    'SCRIPT_NAME' => '/home/api/sites/api.voronka-app.ru/yii2/yii'
+    'SCRIPT_FILENAME' => '/home/api/sites/api.voronka-app.ru/yii2/yii'
+    'PATH_TRANSLATED' => '/home/api/sites/api.voronka-app.ru/yii2/yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1657548134.3803
+    'REQUEST_TIME' => 1657548134
+    'argv' => [
+        0 => '/home/api/sites/api.voronka-app.ru/yii2/yii'
+        1 => 'daemon/deletevclient'
+    ]
+    'argc' => 2
+]
+2022-07-11 14:03:02 [-][-][-][error][ParseError] ParseError: syntax error, unexpected '}' in /sites/api.voronka-app.ru/yii2/common/models/Vclient.php:702
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('common\\models\\V...')
+#1 /sites/api.voronka-app.ru/yii2/console/controllers/DaemonController.php(62): spl_autoload_call('common\\models\\V...')
+#2 [internal function]: console\controllers\DaemonController->actionCreatevclient()
+#3 /sites/api.voronka-app.ru/yii2/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /sites/api.voronka-app.ru/yii2/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#5 /sites/api.voronka-app.ru/yii2/vendor/yiisoft/yii2/console/Controller.php(182): yii\base\Controller->runAction('createvclient', Array)
+#6 /sites/api.voronka-app.ru/yii2/vendor/yiisoft/yii2/base/Module.php(552): yii\console\Controller->runAction('createvclient', Array)
+#7 /sites/api.voronka-app.ru/yii2/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('daemon/createvc...', Array)
+#8 /sites/api.voronka-app.ru/yii2/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('daemon/createvc...', Array)
+#9 /sites/api.voronka-app.ru/yii2/vendor/yiisoft/yii2/base/Application.php(384): yii\console\Application->handleRequest(Object(yii\console\Request))
+#10 /sites/api.voronka-app.ru/yii2/yii(23): yii\base\Application->run()
+#11 {main}
+2022-07-11 14:03:02 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SHELL' => '/bin/bash'
+    'USER' => 'api'
+    'USERNAME' => 'api'
+    'PWD' => '/sites'
+    'SHLVL' => '1'
+    'HOME' => '/sites'
+    '_' => '/sites/api.voronka-app.ru/yii2/yii'
+    'PHP_SELF' => '/sites/api.voronka-app.ru/yii2/yii'
+    'SCRIPT_NAME' => '/sites/api.voronka-app.ru/yii2/yii'
+    'SCRIPT_FILENAME' => '/sites/api.voronka-app.ru/yii2/yii'
+    'PATH_TRANSLATED' => '/sites/api.voronka-app.ru/yii2/yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1657548182.4494
+    'REQUEST_TIME' => 1657548182
+    'argv' => [
+        0 => '/sites/api.voronka-app.ru/yii2/yii'
+        1 => 'daemon/createvclient'
+    ]
+    'argc' => 2
+]

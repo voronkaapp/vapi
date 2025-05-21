@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="13f4111b-c818-4534-9aff-6911b12e7315" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/runtime/cache/08/081362d4867af56e819a9bd1f15adec8.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/runtime/cache/43/430dfd9cc86907aa4350f068efe0a038.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/runtime/cache/4d/4df99f17a3a361ae7824b28a0127bea5.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/runtime/cache/7b/7bf1c7ce24066306cfd5151bda6c2db9.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/runtime/cache/7c/7c3d04bb0f44a1ace16b74292d948014.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/runtime/cache/d0/d07f9cc57224b28fdf3f0e8b7eca029c.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/runtime/cache/ec/ec61762fbee1016a2b08a57d2ede19f7.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/runtime/debug/63ea34075ad49.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/runtime/debug/63ea340818e85.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/runtime/debug/63eb7a3da352a.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/runtime/debug/63eb7a3ea87a8.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/runtime/debug/63ec39ebb6845.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/runtime/debug/63ec60c90acca.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/runtime/debug/63eca768d0a6c.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/runtime/debug/63ed5cca3ec5c.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/runtime/debug/63ed6a876096b.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/runtime/debug/63ee60d45ed81.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/runtime/debug/63ee6e7e6529d.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/runtime/debug/63eeb165bdffa.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/runtime/debug/63ef686367413.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/runtime/debug/63ef686589b7f.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/runtime/debug/63ef6867a381d.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/runtime/debug/63f4142bdb3c2.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/runtime/debug/63f56704508ce.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/runtime/debug/63fb3354a3cd5.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/runtime/debug/63fb335cc3be8.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/runtime/debug/63fd14b535edb.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/runtime/debug/63fd6e74d228a.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/runtime/debug/63fdeabfbde49.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/runtime/debug/63fe47d59afd0.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/runtime/debug/63fe481aec0ee.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/runtime/debug/63fead2fb7b0e.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/runtime/debug/63ffe1bd66cc5.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/runtime/debug/63ffe54c052b4.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/runtime/debug/6400e2431124b.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/runtime/debug/64010a422b0c4.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/runtime/debug/64014ff8edb72.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/runtime/debug/640211ac75e46.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/runtime/debug/640211b177b5e.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/runtime/debug/64025a0f46b05.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/runtime/debug/6402f0797af39.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/runtime/debug/6404291e59565.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/runtime/debug/6404a95a0a8b3.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/runtime/debug/640603fe97c9c.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/runtime/debug/64060400b05bb.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/runtime/debug/64060402c672b.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/runtime/debug/640625e99e3f6.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/runtime/debug/6407340abf559.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/runtime/debug/6407d93455334.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/runtime/debug/640887df35a65.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/runtime/debug/640887e83823a.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/runtime/debug/6409d0719434c.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/runtime/debug/6436b048a3dc6.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/runtime/debug/6436b052199ab.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/runtime/debug/6436b07e38ad0.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/runtime/debug/6436b08803272.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/runtime/debug/6436b08b5e18e.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/runtime/debug/6436b08f50f5b.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/runtime/debug/6436b09282618.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/runtime/debug/6436b092cba52.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/runtime/debug/6436b0b0676d8.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/runtime/debug/6436b134a6d3f.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/runtime/debug/6436b1405906a.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/runtime/debug/6436b14a660a9.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/runtime/debug/6436b15cd367d.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/runtime/debug/6436b1798d719.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/runtime/debug/6436b247d4cc7.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/runtime/debug/index.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/runtime/logs/app.log" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
+    <ignored path="api.voronka.pro.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="api.voronka.pro" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Vsite.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/models/Vsite.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Vemail.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/common/models/Vemail.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="voronkaapp &lt;voronkaapp@gmail.com&gt;" />
+      </list>
+    </option>
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="ROOT_SYNC" value="SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="FORCE_PUSH_ALLOWED" value="true" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/frontend/views/site/index.php" />
+        <option value="$PROJECT_DIR$/vendor/yiisoft/yii2/base/Application.php" />
+        <option value="$PROJECT_DIR$/common/config/main-local.php" />
+        <option value="$PROJECT_DIR$/common/models/Vemail.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpDebugGeneral" detect_path_mappings_from_deployment_configuration="false" />
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="997" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api.voronka.pro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api.voronka.pro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api.voronka.pro" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.vagrant" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="997" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32932693" sideWeight="0.50214595" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932693" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32932693" sideWeight="0.49785408" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942432" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18133047" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="false" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="false" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="false" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="false" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="false" />
+    <MESSAGE value="vemail change first literal" />
+    <option name="LAST_COMMIT_MESSAGE" value="vemail change first literal" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/base/Application.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1157">
+          <caret line="96" column="35" selection-start-line="96" selection-start-column="35" selection-end-line="96" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/views/site/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/controllers/SiteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-306">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/models/rest/Vsite.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/models/rest/Vclient.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/codeception.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/models/Vclient.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="17" column="54" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/modules/v1/controllers/VclientController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/config/__autocomplete.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/config/bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/config/codeception-local.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/config/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/config/main-local.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/config/params.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/config/params-local.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/config/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/console/config/bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/console/config/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/console/config/main-local.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/console/config/params-local.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/console/config/params.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/console/config/test-local.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/runtime/debug/6436b08803272.data">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="0" column="2129" selection-start-line="0" selection-start-column="2129" selection-end-line="0" selection-end-column="2129" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/models/Vsite.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/models/Vemail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
